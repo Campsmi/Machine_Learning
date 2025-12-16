@@ -1,0 +1,19 @@
+{
+  "model_name": "random_forest",
+  "feature_columns": [
+    "danceability",
+    "energy",
+    "loudness",
+    "speechiness",
+    "acousticness",
+    "instrumentalness",
+    "liveness",
+    "valence",
+    "tempo",
+    "duration_ms",
+    "release_year",
+    "release_month"
+  ],
+  "hit_threshold": 51.0,
+  "random_state": 42
+}

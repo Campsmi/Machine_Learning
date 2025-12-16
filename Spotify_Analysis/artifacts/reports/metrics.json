@@ -1,0 +1,90 @@
+{
+  "log_reg": {
+    "cv_mean": {
+      "roc_auc": 0.6358333333333335,
+      "f1": 0.6282539682539683,
+      "precision": 0.6433333333333333,
+      "recall": 0.66,
+      "accuracy": 0.625
+    },
+    "cv_std": {
+      "roc_auc": 0.26150738251741784,
+      "f1": 0.21572450540515867,
+      "precision": 0.12454361128179603,
+      "recall": 0.3072458299147443,
+      "accuracy": 0.1767766952966369
+    },
+    "test_roc_auc": 0.6666666666666666,
+    "test_report": {
+      "0": {
+        "precision": 0.3333333333333333,
+        "recall": 0.5,
+        "f1-score": 0.4,
+        "support": 4.0
+      },
+      "1": {
+        "precision": 0.5,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.4,
+        "support": 6.0
+      },
+      "accuracy": 0.4,
+      "macro avg": {
+        "precision": 0.41666666666666663,
+        "recall": 0.41666666666666663,
+        "f1-score": 0.4,
+        "support": 10.0
+      },
+      "weighted avg": {
+        "precision": 0.4333333333333333,
+        "recall": 0.4,
+        "f1-score": 0.4,
+        "support": 10.0
+      }
+    }
+  },
+  "random_forest": {
+    "cv_mean": {
+      "roc_auc": 0.6875000000000001,
+      "f1": 0.7020634920634921,
+      "precision": 0.7766666666666666,
+      "recall": 0.71,
+      "accuracy": 0.7
+    },
+    "cv_std": {
+      "roc_auc": 0.19002923751652298,
+      "f1": 0.1446985380666277,
+      "precision": 0.12274635093014646,
+      "recall": 0.2690724809414742,
+      "accuracy": 0.1274754878398196
+    },
+    "test_roc_auc": 0.875,
+    "test_report": {
+      "0": {
+        "precision": 0.75,
+        "recall": 0.75,
+        "f1-score": 0.75,
+        "support": 4.0
+      },
+      "1": {
+        "precision": 0.8333333333333334,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.8333333333333334,
+        "support": 6.0
+      },
+      "accuracy": 0.8,
+      "macro avg": {
+        "precision": 0.7916666666666667,
+        "recall": 0.7916666666666667,
+        "f1-score": 0.7916666666666667,
+        "support": 10.0
+      },
+      "weighted avg": {
+        "precision": 0.8,
+        "recall": 0.8,
+        "f1-score": 0.8,
+        "support": 10.0
+      }
+    }
+  }
+}

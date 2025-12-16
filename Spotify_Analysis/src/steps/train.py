@@ -15,7 +15,7 @@ def build_models():
     ])
     
     rf = Pipeline([
-        ("imputer", SimpleImputer(strategy="median"))
+        ("imputer", SimpleImputer(strategy="median")),
         ("model", RandomForestClassifier(
             n_estimators=300,
             random_state=RANDOM_STATE
