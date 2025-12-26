@@ -10,9 +10,7 @@
     "liveness",
     "valence",
     "tempo",
-    "duration_ms",
-    "release_year",
-    "release_month"
+    "duration_ms"
   ],
   "hit_threshold": 51.0,
   "random_state": 42

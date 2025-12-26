@@ -25,6 +25,6 @@ class InferencePipeline:
         proba = self.model.predict_proba(X)[:,1]
         
         return {
-            "hit probability": float(proba[0]),
+            "hit_probability": float(proba[0]),
             "prediction": int(proba[0] >= 0.5)
         }
