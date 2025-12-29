@@ -58,10 +58,3 @@ with col1:
         except requests.RequestException as e:
             st.error(f"API error: {e}")
             
-with col2:
-    st.subheader("What this app does")
-    st.write(
-        "- Sends your feature inputs to a FastAPI service\n"
-        "- The API loads the trained model and returns a hit probability\n"
-        "- Streamlit displays the result"
-    )
